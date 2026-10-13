@@ -1,0 +1,15 @@
+[vpn]
+gateway = vpn.example.com
+port = 12443
+username = your.user
+password = your_password
+mac = 0123-4567-89AB
+tun = univpn0
+mtu = 1300
+# routes: comma-separated CIDRs sent over the tunnel.
+#   empty      = bring the interface up but add no routes (safe test)
+#   default    = full tunnel (ALL traffic via VPN; can cut remote access)
+#   1.2.3.0/24 = split tunnel, only these subnets via VPN
+routes =
+# dns: override pushed DNS; empty = use what the gateway sends
+dns =

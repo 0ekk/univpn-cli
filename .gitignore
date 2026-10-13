@@ -1,0 +1,7 @@
+# real credentials — never commit
+univpn.conf
+
+# runtime / capture artifacts
+*.log
+__pycache__/
+*.pyc
